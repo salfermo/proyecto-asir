@@ -1,0 +1,162 @@
+body, html {
+    height: 90%;
+}
+
+.bg { 
+    background-image: url("./imagenes/cabecera.jpg");
+
+    height: 25%; 
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.camara {
+	float:left;
+}
+
+.configuracion {
+	float:left;
+	padding-left: 50px;
+}
+
+h1 {
+	color: #fff;
+	font-size: 65px;
+	font-weight: normal;
+	line-height: 60px;
+	margin: 10px 0 20px;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 0 #000, margin: 10px 0 24px;
+	text-align: right;
+	padding-right: 5px;
+	padding-top: 60px;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #1E90FF;
+   color: white;
+   text-align: center;
+}
+
+.button {
+  background-color: #1E90FF;
+  border: none;
+  color: white;
+  padding: 10px;
+  width: 160px;
+  text-align: center;
+  font-size: 14px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button:hover {opacity: 1}
+
+.bt {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+
+.pt {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+	width: 320;
+	height: 240;
+}
+
+.corner_eliminar {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    font-size: 18px;
+	background-color: #FFFFFF;
+	padding: 1px;
+}
+
+.corner_publico {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    font-size: 18px;
+	background-color: #FFFFFF;
+	padding: 1px;
+}
+
+div.gallery {
+	position: relative;
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 0px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+#mitabla {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#mitabla td, #mitabla th {
+    border: 1px solid #ddd;
+    padding: 8px;
+	text-align: center;
+}
+
+#mitabla tr:nth-child(even){background-color: #f2f2f2;}
+
+#mitabla tr:hover {background-color: #ddd;}
+
+#mitabla th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #4169E1;
+    color: white;
+}
